@@ -1,0 +1,66 @@
+<style>
+html{
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding: 0px;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+} 
+
+body{		
+	width: 100%;
+	height: 100%;
+	margin:0;
+	-webkit-font-smoothing: antialiased;
+	background-color:lightgrey;
+	overflow-x: hidden;
+}
+
+#header {
+	height:150px;
+	width:100%;
+	background-color:lightblue;
+}
+
+#todo-image {
+	height: 100px;
+	width: 100px;
+	margin-top: 23px;
+	margin-left: 30px;
+}
+
+#todo-title {
+	margin-top:30px;
+	font-size: 50px;
+	font-family: 'Work Sans', sans-serif;
+	font-family: 'Archivo Black', sans-serif;
+	color:white;
+}
+
+.done {
+	text-decoration:line-through;
+}
+
+.done:hover {
+	text-decoration:line-through;
+}
+
+.item
+{
+	list-style-type:none;
+}
+
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+.text-primary{
+	color:dimgrey !important;
+}
+
+.total-active{
+	margin-bottom:0px; 
+	padding-top:5px;
+}
+</style>
